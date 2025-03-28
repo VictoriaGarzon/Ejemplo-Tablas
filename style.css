@@ -1,0 +1,19 @@
+table{
+    width: 100%; /*Hace que la tabla ocupe todo el ancho de la pagina */
+    margin: 20px 0; /*Margenes de la tabla*/
+}
+body{
+    background-color: aqua;
+}
+th td{
+    padding: 10px; /*Rellano dentro de las celdas*/
+    text-align: left;/*Alinea el texto a la izquierda*/
+    border: 3px solid #ddd;
+}
+th{
+    background-color: aquamarine; /*Fondo para el ancabezado*/
+    color: white;
+}
+tr:hover{ 
+    background-color: bisque; /*Cambia el fondo de las caldas al pasar el mouse*/
+}
